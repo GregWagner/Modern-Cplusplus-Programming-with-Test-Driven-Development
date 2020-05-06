@@ -11,13 +11,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-# example library
-add_library(sum_integers sum_integers.cpp)
-
-# main code
-add_executable(sum_up main.cpp)
-target_link_libraries(sum_up sum_integers)
-
 # we will use the network to fetch Google Test sources
 # make it possible to disable unit tests when not on network
 option(ENABLE_UNIT_TESTS "Enable unit tests" ON)
@@ -74,7 +67,6 @@ if(ENABLE_UNIT_TESTS)
 
   target_link_libraries(cpp_test
     PRIVATE
-      sum_integers
       gtest_main
       #gmock_main
     )
