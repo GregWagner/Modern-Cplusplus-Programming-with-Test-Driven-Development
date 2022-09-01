@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -o CMakeFiles/run.dir/src/main.cpp.o -c /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/main.cpp",
+  "file": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/main.cpp"
+},
+{
+  "directory": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -o CMakeFiles/run.dir/src/Soundex.cpp.o -c /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/Soundex.cpp",
+  "file": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/Soundex.cpp"
+},
+{
+  "directory": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -o tests/CMakeFiles/tests.dir/SoundexTests.cpp.o -c /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/tests/SoundexTests.cpp",
+  "file": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/tests/SoundexTests.cpp"
+},
+{
+  "directory": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build",
+  "command": "/usr/bin/g++ -g -std=c++17 -o tests/CMakeFiles/tests.dir/__/src/Soundex.cpp.o -c /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/Soundex.cpp",
+  "file": "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/src/Soundex.cpp"
+}
+]

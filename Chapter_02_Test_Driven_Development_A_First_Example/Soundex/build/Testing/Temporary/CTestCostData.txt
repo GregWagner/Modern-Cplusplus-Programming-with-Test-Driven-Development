@@ -1,0 +1,2 @@
+SoundexEncoding.RetainsSoleLetterOfOneLetterWord 1 0.0188265
+---

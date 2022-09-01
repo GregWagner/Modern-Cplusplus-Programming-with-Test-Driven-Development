@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220901-2311-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Daisy-Laptop"
+	OSRelease="5.10.102.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Wed Mar 2 00:30:59 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15916"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2592.01"
+	>
+	<Testing>
+		<StartDateTime>Sep 01 18:11 CDT</StartDateTime>
+		<StartTestTime>1662073881</StartTestTime>
+		<TestList>
+			<Test>./tests/SoundexEncoding.RetainsSoleLetterOfOneLetterWord</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>SoundexEncoding.RetainsSoleLetterOfOneLetterWord</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.RetainsSoleLetterOfOneLetterWord</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0188265</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydkE8LgkAQxe/7KeZYB6WuQYcg6VBkaNFBPGw5xsI6E+tYffwsSyoIxHcamN+bP2/NghNYMJ8swhZLgdxYQQdTiLmiDG8BHTkzdPIjFG2ojNniCqVmwjykV7lnl6lk2iqFqCKqXTAGeU51XLzrsjKCvkq8ViksLB+0bfpIF+OYCqSaRfGq8w/8OfPnSpVAtFvDU2mPFxonhMsebhiMoCiHnW9teBAWbYeqWx6C2nkZX+k77X8pg9Pkf++pX9zM4jiYPwJqWF/dAT/wqUw=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 01 18:11 CDT</EndDateTime>
+		<EndTestTime>1662073881</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

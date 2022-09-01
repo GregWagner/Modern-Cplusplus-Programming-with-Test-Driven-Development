@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20220901-2213-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.22.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="Daisy-Laptop"
+	OSRelease="5.10.102.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP Wed Mar 2 00:30:59 UTC 2022"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="165"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="4096"
+	TotalPhysicalMemory="15916"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2592.01"
+	>
+	<Testing>
+		<StartDateTime>Sep 01 17:13 CDT</StartDateTime>
+		<StartTestTime>1662070430</StartTestTime>
+		<TestList>
+			<Test>./tests/SoundexEncoding.RetainsSoleLetterOfOneLetterWord</Test>
+			<Test>./tests/SoundexEncoding.PadsWIthZerosToEnsureThreeDigits</Test>
+			<Test>./tests/SoundexEncoding.ReplacesConsonantsWithAppropriateDigits</Test>
+			<Test>./tests/SoundexEncoding.IgnoresNonAlphabetics</Test>
+			<Test>./tests/SoundexEncoding.ReplacesMultipleConsonantsWIthDigits</Test>
+			<Test>./tests/SoundexEncoding.LimitsLengthToFourCharacters</Test>
+			<Test>./tests/SoundexEncoding.IgnoresVowelLikeLetters</Test>
+			<Test>./tests/SoundexEncoding.CombinesDuplicateEncodings</Test>
+			<Test>./tests/SoundexEncoding.UppercasesFirstLetter</Test>
+			<Test>./tests/SoundexEncoding.IgnoresCaseWhenEncodingConsonants</Test>
+			<Test>./tests/SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st</Test>
+			<Test>./tests/SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>SoundexEncoding.RetainsSoleLetterOfOneLetterWord</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.RetainsSoleLetterOfOneLetterWord</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0371158</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydkE8LgkAQxe/7KeZYB6WuQYcg6VBkaNFBPGw5xsI6E+tYffwsSyoIxHcamN+bP2/NghNYMJ8swhZLgdxYQQdTiLmiDG8BHTkzdPIjFG2ojNniCqVmwjykV7lnl6lk2iqFqCKqXTAGeU51XLzrsjKCvkq8ViksLB+0bfpIF+OYCqSaRfGq8w/8OfPnSpVAtFvDU2mPFxonhMsebhiMoCiHnW9teBAWbYeqWx6C2nkZX+k77X8pg9Pkf++pX9zM4jiYPwJqWF/dAT/wqUw=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.PadsWIthZerosToEnsureThreeDigits</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.PadsWIthZerosToEnsureThreeDigits</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0385963</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUMFqg0AQve9XzLE5KM014CGghBJIRC2FiodtnZiFdSbszqb5/NpIQxUKIe80MO/NvPd2LLiCDXNnESr0AgdjBR0kUHKgFi8ZfXJrqItz3fq3Fzm+o2NfcUY+OKyODjE1nRGv6uSGBopANKhgCXK96rj/nX0wgrGqoxsa2Fj+0HbcI52NY+qRBi5KFE4z8t+bM5eqhuJ1B1c0D0QYlbDfPqCGp2fo/eJuryMfhEXbhbqvD0Htopa/aNr2fy2D0xRP/wwR83VZZulPQSM3Vt/xAakQ====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.ReplacesConsonantsWithAppropriateDigits</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.ReplacesConsonantsWithAppropriateDigits</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0407905</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydULEKwkAM3e8rMurQoqvgICoOgkqrOJQOp4314Jocd6n6+VaLooIgvimQl5f33oIFBzBjLi3CGoPAwVhBD0NIuaYCL1Pac2GojBN0Vu8xjJkCkyYJWyPHkXOenTdacGJKI0FlwydySGqi5hj6IHdxz9VjDrURjFUWPZHDzPJO23aPdDKeqUJquChR7T7Ir5ofZlUGyWYBd+T/J2kFYDn/XwQ6PahC92fnLR+ERduu+q0dQe2jgs/03v23zsFrit//NElXozSdTm51tdxYXQHRULKs====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.IgnoresNonAlphabetics</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.IgnoresNonAlphabetics</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresNonAlphabetics" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0432072</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresNonAlphabetics" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkDELwkAMhff7FRnt0KKr4CBYRIQqVqfS4bSxHlyTcpeqP99qUawg9E2BfEleXsKCU1gylxZhj17gbKyggxmk3FCB95hOXBgqo1VJ7NAnTHNbX/QRxZy8ymYf5bBriFoUJiCvVY6rd+0bIxipLPwoh6Xlo7ZdH+lqHFOF1LIoYVP/wN87f6ypDHaHBF7Kh/rucNish47AaAyVDwa76ngQFm0DNexzQe3Cgm/Uz/VfnuA0Rf077V/beZrGi2cUHRupBxf0nD4=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.ReplacesMultipleConsonantsWIthDigits</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.ReplacesMultipleConsonantsWIthDigits</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0449716</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydUMFqg0AQve9XzLE5KO014CE0EkJJWrSlB/Gw0aldWGdkdzbJ59cqDTUQCL7TwLx5897bs+ASNsyNRXhHL/BlrKCDBHIOVOM5pYprQ02cYWd1hX4XrJjO4jOTZ9Ik/nMr32vTGPGqSC4oIQtE/SU8gQzKjtu/2QcjGKsiuqCEjeWDtuMe6WgcU4vUc1Gi0F2R/2teOVUFZB97GFDOjDFew+vLTAV4eITWL+72PPJBWLRdqPt6EdQuqvlE09ZvtQ1OUzz908d8W+V5uv4tauTG6gcla66b====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.LimitsLengthToFourCharacters</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.LimitsLengthToFourCharacters</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.LimitsLengthToFourCharacters" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0462195</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.LimitsLengthToFourCharacters" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVkD8LwjAQxfd8iht1aNFVcBD/dFBUrE6lQ7RnDaR3klzUj2+1KCoI+qbA/d7dy5uzYA8S5tIirNEL7I0VdNCHlAMVeBnTjgtDZTwzlRE/QyrlsOYJBzc8aKd3Ne1V1n8qh1Ugqh3QBblvdFw93j4YwVhl0VM5JJa32jZzpJNxTBVSzaJE4fgBv+78SKgyWG3mcFf+Z/zGBYvpn05odaDy7Z8zNjwIi7Zt9VsPgtpFBZ/pveVv7YLTFL/fqb+3HKTpeHQrpmFjdQVuZqSx====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.IgnoresVowelLikeLetters</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.IgnoresVowelLikeLetters</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresVowelLikeLetters" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0474017</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresVowelLikeLetters" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkDELwkAMhff7FRnt0KKr4CAoIpYqVl1Kh2pjObwmcpeqP99qUWxB6JsC+ZK8vIgFx7BgLgzCDp3AWRtBCxOIuaIcH3M6ca6pCJYFsUV34DuaUF8wRKlBp5LJVylsK6IahhHIe5nl8lO7SgsGKvG/SmFh+JiZpo9005apRKpZFL+6duDfnR1zKoHtPoK30v7OmwFYr/oPwWAIpfN6O2t4EJbMeKrf94KZ9XO+Uzvbf5mCzSho36k/20zjeD57xdGwgXoCyNee/A==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.CombinesDuplicateEncodings</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.CombinesDuplicateEncodings</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.CombinesDuplicateEncodings" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.04928</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.CombinesDuplicateEncodings" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyVULEKwkAM3e8rMurQoqvgICoOQhWrU+lw2lgOronc5dTPt1osVhDqm0LeS/LyEhacwIq5tAh79AJnYwUdTCHlQAXel3TiwlAZz7k6GkK/CBdrTlrwzXiVTVvksAtEdRfGIK99jqt37YMRjFUWtchhZfmobcMjXY1jqpBqLUoULl/iz51f/lQGu0MCL+R/mW9mYLP+aw4GI6j8sLe/Rg/Cou1Q9ctAULuo4Bt1E/6VLDhNcfdO/dx2lqbLxTOURhurB/n2okc=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.UppercasesFirstLetter</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.UppercasesFirstLetter</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.UppercasesFirstLetter" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0499058</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.UppercasesFirstLetter" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNkDELwkAMhff7FRnt0KKr4CBYHZQqVqfS4bSxHFyTcpeqP99qUbQg9E2BfEleXsKCU1gxlxbhgF7gYqyggxmk3FCB95jOXBgqo2Ndoztrj35pnJcNSsupbPZRDvuGqEVhAvJa5bh6174xgpHKwo9yWFk+adv1ka7GMVVILYsSNnUP/t7Zs6Yy2B8TeCkf6rvDYbseOgKjMVQ+GOyq40FYtA3UsM8FtQsLvtFvrv/yBKcp+r3T/rWbp2m8eEbRsZF6AMEnnNE=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.IgnoresCaseWhenEncodingConsonants</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.IgnoresCaseWhenEncodingConsonants</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresCaseWhenEncodingConsonants" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0514472</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.IgnoresCaseWhenEncodingConsonants" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJydULEKwkAM3e8rMurQoqvgIFVEhCpWcSgdThtr4ZrIXap+vrVFUUEofVPIe0leXsiCI5gzZwZhi07glBtBC2OIuKQU7zM6cppT5i8yYosu0A73Z6RXP2ByTJrEqXj8RgKbkqiiYQhSr7VcvGpX5oK+ir03EpgbPmjT8EjX3DIVSJUWxSsvP+LPnT82VQybXQg1ki4/NKOwWnYZh94ACtdv7bbRg7Bo01ftEhHU1kv5Rt95/8sZrCb/+07143oSRbPpM6JG66sHu0Sqrg==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.051883</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytUcGKwkAMvc9X5KiHFvW44GFR8eBSF6t4KD2MTnQHpkmZyez6+XYtFhUED75TIC8veS8ZC37AnPnoENYYBA7WCXoYQ86RDJ5mtGdj6ZhOuNpZwjCNtbN7LThhg2H7gzQi84XSTHWtMAyiinGHElaRqFGBIchli+fqWodoBVNVJB1KmDveadf2kX6tZ6qQGi5KEusH8q3mw9WqgNUmgwvKN1hqlWC5eIMa9AZQhf7LXlo+CIt2ffVaXoLaJ4b/6P4bz74AXlN6v6ex/P2Z57Ppf4AtN1VnuTO7xw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels</FullName>
+			<FullCommandLine>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0539718</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests "--gtest_filter=SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytkb2qwkAQhft9iim1SNBWsPDeSAohivHahBSrGWVhMxN2Z/15+xsNigqChadadj7OzJnJWHAEKfPeIqzQC+yMFXQwhpwDVXia0pYrQ/s4YfQZyy/XG0OYhMaarRa81X2OjXbtR/VzXvMRrVfF+K4SloGoxWAIcm3juL69fTCCsSqiu0pILW+07epIB+OYaqSWRYlC8wI/er6MrQpY/mVwVfmNTJ0VzGffsIPeAGrf/zhNx4OwaNtXn21MULuo4iM93+PdHcBpip/7tJkXkzyfJpcVdmys/gEHYr2e====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Sep 01 17:13 CDT</EndDateTime>
+		<EndTestTime>1662070430</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests[1]_tests.cmake")
+  include("/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()

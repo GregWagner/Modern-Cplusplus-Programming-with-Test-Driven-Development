@@ -1,0 +1,29 @@
+Start testing: Sep 01 18:11 CDT
+----------------------------------------------------------
+1/1 Testing: SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+1/1 Test: SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" start time: Sep 01 18:11 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+[       OK ] SoundexEncoding.RetainsSoleLetterOfOneLetterWord (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" end time: Sep 01 18:11 CDT
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 01 18:11 CDT

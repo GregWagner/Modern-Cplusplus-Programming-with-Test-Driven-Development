@@ -1,0 +1,315 @@
+Start testing: Sep 01 17:13 CDT
+----------------------------------------------------------
+1/12 Testing: SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+1/12 Test: SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.RetainsSoleLetterOfOneLetterWord
+[       OK ] SoundexEncoding.RetainsSoleLetterOfOneLetterWord (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" end time: Sep 01 17:13 CDT
+"SoundexEncoding.RetainsSoleLetterOfOneLetterWord" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: SoundexEncoding.PadsWIthZerosToEnsureThreeDigits
+2/12 Test: SoundexEncoding.PadsWIthZerosToEnsureThreeDigits
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.PadsWIthZerosToEnsureThreeDigits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.PadsWIthZerosToEnsureThreeDigits
+[       OK ] SoundexEncoding.PadsWIthZerosToEnsureThreeDigits (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" end time: Sep 01 17:13 CDT
+"SoundexEncoding.PadsWIthZerosToEnsureThreeDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: SoundexEncoding.ReplacesConsonantsWithAppropriateDigits
+3/12 Test: SoundexEncoding.ReplacesConsonantsWithAppropriateDigits
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.ReplacesConsonantsWithAppropriateDigits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.ReplacesConsonantsWithAppropriateDigits
+[       OK ] SoundexEncoding.ReplacesConsonantsWithAppropriateDigits (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" end time: Sep 01 17:13 CDT
+"SoundexEncoding.ReplacesConsonantsWithAppropriateDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: SoundexEncoding.IgnoresNonAlphabetics
+4/12 Test: SoundexEncoding.IgnoresNonAlphabetics
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.IgnoresNonAlphabetics" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.IgnoresNonAlphabetics" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.IgnoresNonAlphabetics
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.IgnoresNonAlphabetics
+[       OK ] SoundexEncoding.IgnoresNonAlphabetics (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.IgnoresNonAlphabetics" end time: Sep 01 17:13 CDT
+"SoundexEncoding.IgnoresNonAlphabetics" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: SoundexEncoding.ReplacesMultipleConsonantsWIthDigits
+5/12 Test: SoundexEncoding.ReplacesMultipleConsonantsWIthDigits
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.ReplacesMultipleConsonantsWIthDigits
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.ReplacesMultipleConsonantsWIthDigits
+[       OK ] SoundexEncoding.ReplacesMultipleConsonantsWIthDigits (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" end time: Sep 01 17:13 CDT
+"SoundexEncoding.ReplacesMultipleConsonantsWIthDigits" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: SoundexEncoding.LimitsLengthToFourCharacters
+6/12 Test: SoundexEncoding.LimitsLengthToFourCharacters
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.LimitsLengthToFourCharacters" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.LimitsLengthToFourCharacters" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.LimitsLengthToFourCharacters
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.LimitsLengthToFourCharacters
+[       OK ] SoundexEncoding.LimitsLengthToFourCharacters (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.LimitsLengthToFourCharacters" end time: Sep 01 17:13 CDT
+"SoundexEncoding.LimitsLengthToFourCharacters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: SoundexEncoding.IgnoresVowelLikeLetters
+7/12 Test: SoundexEncoding.IgnoresVowelLikeLetters
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.IgnoresVowelLikeLetters" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.IgnoresVowelLikeLetters" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.IgnoresVowelLikeLetters
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.IgnoresVowelLikeLetters
+[       OK ] SoundexEncoding.IgnoresVowelLikeLetters (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.IgnoresVowelLikeLetters" end time: Sep 01 17:13 CDT
+"SoundexEncoding.IgnoresVowelLikeLetters" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: SoundexEncoding.CombinesDuplicateEncodings
+8/12 Test: SoundexEncoding.CombinesDuplicateEncodings
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.CombinesDuplicateEncodings" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.CombinesDuplicateEncodings" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.CombinesDuplicateEncodings
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.CombinesDuplicateEncodings
+[       OK ] SoundexEncoding.CombinesDuplicateEncodings (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.CombinesDuplicateEncodings" end time: Sep 01 17:13 CDT
+"SoundexEncoding.CombinesDuplicateEncodings" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: SoundexEncoding.UppercasesFirstLetter
+9/12 Test: SoundexEncoding.UppercasesFirstLetter
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.UppercasesFirstLetter" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.UppercasesFirstLetter" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.UppercasesFirstLetter
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.UppercasesFirstLetter
+[       OK ] SoundexEncoding.UppercasesFirstLetter (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.UppercasesFirstLetter" end time: Sep 01 17:13 CDT
+"SoundexEncoding.UppercasesFirstLetter" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: SoundexEncoding.IgnoresCaseWhenEncodingConsonants
+10/12 Test: SoundexEncoding.IgnoresCaseWhenEncodingConsonants
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.IgnoresCaseWhenEncodingConsonants" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.IgnoresCaseWhenEncodingConsonants" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.IgnoresCaseWhenEncodingConsonants
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.IgnoresCaseWhenEncodingConsonants
+[       OK ] SoundexEncoding.IgnoresCaseWhenEncodingConsonants (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.IgnoresCaseWhenEncodingConsonants" end time: Sep 01 17:13 CDT
+"SoundexEncoding.IgnoresCaseWhenEncodingConsonants" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st
+11/12 Test: SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st
+[       OK ] SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" end time: Sep 01 17:13 CDT
+"SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels
+12/12 Test: SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels
+Command: "/mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests" "--gtest_filter=SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" "--gtest_also_run_disabled_tests"
+Directory: /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests
+"SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" start time: Sep 01 17:13 CDT
+Output:
+----------------------------------------------------------
+Note: Google Test filter = SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SoundexEncoding
+[ RUN      ] SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels
+[       OK ] SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels (0 ms)
+[----------] 1 test from SoundexEncoding (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" end time: Sep 01 17:13 CDT
+"SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 01 17:13 CDT

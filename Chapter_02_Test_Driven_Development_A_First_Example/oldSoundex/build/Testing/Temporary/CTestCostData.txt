@@ -1,0 +1,13 @@
+SoundexEncoding.RetainsSoleLetterOfOneLetterWord 1 0.0371158
+SoundexEncoding.PadsWIthZerosToEnsureThreeDigits 1 0.0385963
+SoundexEncoding.ReplacesConsonantsWithAppropriateDigits 1 0.0407905
+SoundexEncoding.IgnoresNonAlphabetics 1 0.0432072
+SoundexEncoding.ReplacesMultipleConsonantsWIthDigits 1 0.0449716
+SoundexEncoding.LimitsLengthToFourCharacters 1 0.0462195
+SoundexEncoding.IgnoresVowelLikeLetters 1 0.0474017
+SoundexEncoding.CombinesDuplicateEncodings 1 0.04928
+SoundexEncoding.UppercasesFirstLetter 1 0.0499058
+SoundexEncoding.IgnoresCaseWhenEncodingConsonants 1 0.0514472
+SoundexEncoding.CombinesDuplicateCodesWhen2ndLetterDuplicates1st 1 0.051883
+SoundexEncoding.DoesNotCombineDuplicateEncodingsSeparatedByVowels 1 0.0539718
+---

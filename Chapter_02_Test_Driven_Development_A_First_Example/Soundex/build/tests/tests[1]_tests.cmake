@@ -1,0 +1,3 @@
+add_test( SoundexEncoding.RetainsSoleLetterOfOneLetterWord /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests/tests [==[--gtest_filter=SoundexEncoding.RetainsSoleLetterOfOneLetterWord]==] --gtest_also_run_disabled_tests)
+set_tests_properties( SoundexEncoding.RetainsSoleLetterOfOneLetterWord PROPERTIES WORKING_DIRECTORY /mnt/c/Users/theGr/Projects/Modern-Cplusplus-Programming-with-Test-Driven-Development/Chapter_02_Test_Driven_Development_A_First_Example/Soundex/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( tests_TESTS SoundexEncoding.RetainsSoleLetterOfOneLetterWord)
